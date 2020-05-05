@@ -1,0 +1,6 @@
+&A
+free text
+&
+$A
+$A
+$A

@@ -115,10 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="error-log.h" />
     <ClInclude Include="macro-library.h" />
     <ClInclude Include="macro.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="error-log.cpp" />
+    <ClCompile Include="macro-library.cpp" />
+    <ClCompile Include="macro.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

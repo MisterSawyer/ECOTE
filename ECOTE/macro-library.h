@@ -1,5 +1,6 @@
 #pragma once
 #include "macro.h"
+#include <string>
 
 class MacroLibrary
 {
@@ -7,5 +8,9 @@ class MacroLibrary
 	Macro * execution_level;
 
 public:
+	MacroLibrary();
+	~MacroLibrary();
 
+	bool readInputFromFile(const std::string & filepath);
+	void readInputFromString(const std::string & filepath);
 };

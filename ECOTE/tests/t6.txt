@@ -1,0 +1,11 @@
+&A
+Free text A
+&B
+Free text B
+&
+$B
+&
+$A
+&
+$C
+$A
